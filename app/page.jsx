@@ -31,7 +31,7 @@ export default function HomePage() {
           <div className="skeleton-line" style={{ height: 80, width: 600 }} />
         ) : (
           <>
-            <h1>Invest Visionaries. Even the Synthetic Ones.</h1>
+            <h1>Invest in Visionaries. Even the Synthetic Ones.</h1>
 
             <div className="filter-button-group">
   <button
