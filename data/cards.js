@@ -24,7 +24,6 @@ const cards = [
       supporters: "919",
       marketcap: "$940K",
       ipo: "D-9",
-      video: "/video/sigh.mp4",
       description:
         "April Wexley invented her former job title—professional sigh transcriber—before founding SighSense AI. The idea emerged after her partner sighed once during dinner and left two weeks later. Q: What data trained the model? Wexley: “Twenty-four hours of my own sighs. Different rooms. Different disappointments.” SighSense AI claims a 92% success rate in predicting breakups, though all test subjects were her former partners. The enterprise version, SighSense Pro, is being marketed to corporations interested in measuring employee despair without direct conversation.",
     },
