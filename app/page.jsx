@@ -25,49 +25,53 @@ export default function HomePage() {
   );
 
   return (
-    <main className={`svf-main stage-${stage}`}>
-      <section className="svf-hero">
-        {loading ? (
-          <div className="skeleton-line" style={{ height: 80, width: 600 }} />
-        ) : (
-          <>
-            <h1>Invest in Visionaries. Even the Synthetic Ones.</h1>
+      <main className={`svf-main stage-${stage}`}>
+        <section className="svf-hero">
+          {loading ? (
+            <div className="skeleton-line" style={{ height: 80, width: 600 }} />
+          ) : (
+            <>
+              <h1>Invest in Visionaries. Even the Synthetic Ones.</h1>
 
-            <div className="filter-button-group">
-  <button
-    className={`filter-button ${filter === "all" ? "active" : ""}`}
-    onClick={() => setFilter("all")}
-  >
-    Show All
-  </button>
-  <button
-    className={`filter-button ${filter === "audio" ? "active" : ""}`}
-    onClick={() => setFilter("audio")}
-  >
-    🎧 Audio Episodes
-  </button>
-</div>
-          </>
-        )}
-      </section>
+              <div className="filter-button-group">
+                <button
+                  className={`filter-button ${
+                    filter === "all" ? "active" : ""
+                  }`}
+                  onClick={() => setFilter("all")}
+                >
+                  Show All
+                </button>
+                <button
+                  className={`filter-button ${
+                    filter === "audio" ? "active" : ""
+                  }`}
+                  onClick={() => setFilter("audio")}
+                >
+                  🎧 Audio Episodes
+                </button>
+              </div>
+            </>
+          )}
+        </section>
 
-      <section className="svf-grid">
-        {loading
-          ? Array.from({ length: 9 }).map((_, i) => (
-              <Card key={i} isSkeleton />
-            ))
-          : shuffleArray(filteredCards).map((item) => (
-              <Card
-                key={item.id}
-                id={item.id}
-                title={item.title}
-                subtitle={item.subtitle}
-                image={item.image}
-                images={item.images}
-                growthStage={stage}
-              />
-            ))}
-      </section>
-    </main>
+        <section className="svf-grid">
+          {loading
+            ? Array.from({ length: 9 }).map((_, i) => (
+                <Card key={i} isSkeleton />
+              ))
+            : shuffleArray(filteredCards).map((item) => (
+                <Card
+                  key={item.id}
+                  id={item.id}
+                  title={item.title}
+                  subtitle={item.subtitle}
+                  image={item.image}
+                  images={item.images}
+                  growthStage={stage}
+                />
+              ))}
+        </section>
+      </main>
   );
 }
