@@ -24,6 +24,7 @@ const cards = [
       supporters: "919",
       marketcap: "$940K",
       ipo: "D-9",
+      audio: "/audio/sigh.mp3",
       description:
         "April Wexley invented her former job title—professional sigh transcriber—before founding SighSense AI. The idea emerged after her partner sighed once during dinner and left two weeks later. Q: What data trained the model? Wexley: “Twenty-four hours of my own sighs. Different rooms. Different disappointments.” SighSense AI claims a 92% success rate in predicting breakups, though all test subjects were her former partners. The enterprise version, SighSense Pro, is being marketed to corporations interested in measuring employee despair without direct conversation.",
     },
@@ -68,7 +69,6 @@ const cards = [
       supporters: "587",
       marketcap: "$1.3M",
       ipo: "D-17",
-      audio: "/audio/sniffcast.mp3",
       description:
         "Before founding SniffCast AI, Jenna Puffin trained dogs to detect cheese. Her current product uses a robotic nose to predict weather conditions by sniffing the air. During demonstrations, the device shakes violently before announcing results such as “maybe cloudy.” Puffin defends the system’s accuracy by comparing it favorably to national weather forecasts on Mondays. A premium version promises detection of storms, humidity, and “bad vibes.”",
     },
@@ -83,7 +83,6 @@ const cards = [
         supporters: "911",
         marketcap: "$1.4M",
         ipo: "D-18",
-        audio: "/audio/security.mp3",
         description:
           "Alan Brooks spent twelve years working night security, monitoring empty office buildings. Over time, he noticed that nothing happening still formed patterns. PatrolNet AI analyzes surveillance footage where no events occur to predict future incidents that will also not occur. Q: What does the AI actually detect? Brooks: “Potential uneventfulness.” The system produces forecasts like “low likelihood of surprise.” Despite admitting most footage is identical, PatrolNet raised $24M after investors described it as “deeply calming.”",
       },
@@ -98,7 +97,6 @@ const cards = [
         supporters: "1112",
         marketcap: "$870K",
         ipo: "TBD",
-        audio: "/audio/flowers.mp3",
         description:
           "Elaine Wu arranged flowers for weddings before concluding bouquets absorb decision-making energy. PetalLogic AI predicts relationship outcomes based on petal angles and bouquet symmetry. Q: What data trained the model? Wu: “Mostly weddings that didn’t last.” The AI outputs labels like “optimistic arrangement” or “structural denial.” Despite flowers dying quickly, PetalLogic raised $39.1M. Wu: “So do startups.”",
       },
@@ -113,7 +111,6 @@ const cards = [
         supporters: "604",
         marketcap: "$990K",
         ipo: "D-27",
-        audio: "/audio/sunglasses.mp3",
         description:
           "Trevor Nolan sold sunglasses at a beach kiosk for years before realizing customers chose frames based on denial rather than sun exposure. ShadeMind AI analyzes sunglass selfies to assess self-awareness levels. Q: How reliable is it? Nolan: “Emotionally accurate.” The system struggles with mirrored lenses, which Nolan calls “aggressive avoidance.” ShadeMind raised $31.7M after Nolan wore sunglasses indoors during the pitch.",
       },
@@ -158,7 +155,6 @@ const cards = [
         supporters: "688",
         marketcap: "$920K",
         ipo: "D-25",
-        audio: "/audio/chair.mp3",
         description:
           "Lionel Hart believes chairs know when people are lying to themselves. SeatTone AI analyzes creaks produced when users sit down. A soft creak yields “internal turbulence.” Q: What about beanbags? Hart: “They refuse structure.” SeatTone raised $14.5M from investors interested in ‘seated introspection.’",
       },
@@ -173,7 +169,6 @@ const cards = [
         supporters: "903",
         marketcap: "$1.7M",
         ipo: "D-11",
-        audio: "/audio/clouds.mp3",
         description:
           "Jasper Wren claims the sky knows your mood before you do. SkyFeel AI maps emotional states from cloud photographs. Most outputs read “drifting toward mild disappointment.” Rain overwhelms the system, causing it to return “???” repeatedly. Wren describes this as honesty.",
       },
@@ -203,7 +198,6 @@ const cards = [
         supporters: "431",
         marketcap: "$680K",
         ipo: "D-37",
-        audio: "/audio/pillow.mp3",
         description:
           "Clara Wint claims pillows absorb unresolved thoughts. PillowMind AI evaluates restlessness based on how users adjust pillows before sleep. A single fluff resulted in “resolution unlikely.” Memory foam pillows are unsupported due to what Wint calls “emotional rigidity.”",
       },
@@ -233,7 +227,6 @@ const cards = [
     supporters: "612",
     marketcap: "$980K",
     ipo: "D-28",
-    audio: "/audio/walls.mp3",
     description:
       "Patrick Loom worked night shifts in a warehouse where there was nothing to look at except walls. WallSense AI evaluates motivation by measuring how long users stare at a blank surface. During testing, 19 seconds produced “Motivation: dormant. Directional intent: not loading.” Loom insists decorated walls introduce hope and are therefore excluded. WallSense does not attempt to improve motivation. It only confirms its absence.",
   },
@@ -248,7 +241,6 @@ const cards = [
     supporters: "834",
     marketcap: "$1.4M",
     ipo: "D-16",
-    audio: "/audio/tote.mp3",
     description:
       "Simon Kaye noticed customers carried tote bags with different degrees of hope. ToteLogic AI analyzes grip tension and shoulder angle to determine career alignment. A loose grip returned “courteous misplacement.” Backpacks are excluded because they suggest commitment. Investors described the product as ‘non-confrontational career insight.’",
   },
@@ -263,7 +255,6 @@ const cards = [
     supporters: "1094",
     marketcap: "$2.1M",
     ipo: "D-10",
-    audio: "/audio/waitindex.mp3",
     description:
       "WaitIndex AI measures burnout by analyzing posture and micro-movements while users wait without checking their phones. Eleven seconds of waiting produced “Burnout: simmering.” Immediate arrivals cancel the reading. Cole describes this as ‘incomplete waiting.’",
   },
@@ -293,7 +284,6 @@ const cards = [
     supporters: "503",
     marketcap: "$860K",
     ipo: "D-34",
-    audio: "/audio/doors.mp3",
     description:
       "CloseSense AI evaluates confidence through door-closing sounds. A soft click produced “Confidence: 42%.” A slam triggered “Overwhelmed.” Revolving doors are unsupported due to ‘emotional indecision.’ Morrow describes the system as honest but not helpful.",
   },
@@ -323,7 +313,6 @@ const cards = [
     supporters: "721",
     marketcap: "$1.3M",
     ipo: "D-23",
-    audio: "/audio/corners.mp3",
     description:
       "CornerCast AI analyzes micro-hesitations at hallway intersections to evaluate decisiveness. A brief pause returned “Existential drift present.” Open-plan spaces disable the system entirely due to lack of edges.",
   },
@@ -338,7 +327,6 @@ const cards = [
     supporters: "588",
     marketcap: "$1.0M",
     ipo: "D-31",
-    audio: "/audio/counter.mp3",
     description:
       "CounterSense AI records pressure patterns when users lean against counters. A light lean produced “Support dependency: low.” Marble counters are excluded for being ‘emotionally cold.’ Soto describes counters as ‘silent collaborators.’",
   },
@@ -353,7 +341,6 @@ const cards = [
     supporters: "1001",
     marketcap: "$2.4M",
     ipo: "D-7",
-    audio: "/audio/shoes.mp3",
     description:
       "ShoeOff AI evaluates commitment by observing how users remove their shoes. Careful untying produced “Cautious detachment.” Slip-ons are excluded for being ‘emotionally ambiguous exits.’ The system is used in corporate wellness pilots.",
   },
@@ -382,7 +369,6 @@ const cards = [
     supporters: "1022",
     marketcap: "$2.2M",
     ipo: "D-8",
-    audio: "/audio/escalator.mp3",
     description:
       "Victor Hale began noticing escalator behavior while commuting to a consulting job he disliked. Some people walked. Others stood still. AutoRise AI was founded to explain this difference. The system analyzes body posture, foot alignment, and gaze direction while users stand on escalators. Standing motionless is labeled “delegated momentum,” while walking upward is classified as “self-authored progress.” Q: What about running? Hale: “Running introduces panic.” AutoRise disables analysis on broken escalators, citing emotional instability in vertical systems. Investors praised the product for making ambition feel measurable without requiring effort.",
   },
@@ -410,7 +396,6 @@ const cards = [
     supporters: "1644",
     marketcap: "$3.9M",
     ipo: "D-2",
-    audio: "/audio/email.mp3",
     description:
       "Camille Roth built Unsend AI after spending years writing emails she never sent. The system analyzes unsent drafts to classify emotional hesitation. Long drafts are labeled “conflict rehearsal,” while short drafts edited repeatedly are categorized as “polite distress.” Q: What happens if the email is finally sent? Roth: “The data collapses.” Unsend AI markets itself as an insight tool for organizations that value reflection over resolution. Critics argue it rewards avoidance. Roth describes this as a misunderstanding of modern communication.",
   },
@@ -438,7 +423,6 @@ const cards = [
     supporters: "2011",
     marketcap: "$4.1M",
     ipo: "D-1",
-    audio: "/audio/tabs.mp3",
     description:
       "Julian Park believes open browser tabs represent unresolved intention. TabMind AI counts tabs left open overnight and assigns cognitive load scores. More than twenty tabs return ‘Deferred processing.’ Closing all tabs triggers ‘False resolution.’ Q: What about tab groups? Park: “They’re denial with structure.” TabMind does not reduce tabs. It reframes them. Investors praised the system for validating habits users already intended to keep.",
   },
@@ -466,7 +450,6 @@ const cards = [
     supporters: "677",
     marketcap: "$1.1M",
     ipo: "D-29",
-    audio: "/audio/receipts.mp3",
     description:
       "ReceiptMind AI examines emotional attachment to proof of purchase. Schultz noticed people who kept receipts rarely returned items. The AI tracks folding patterns, wallet storage duration, and retrieval frequency. A receipt kept longer than five days is classified as ‘Deferred justification.’ Schultz claims the system helps users acknowledge regret without confronting it.",
   },
@@ -480,7 +463,6 @@ const cards = [
     supporters: "1440",
     marketcap: "$3.1M",
     ipo: "D-5",
-    audio: "/audio/postit.mp3",
     description:
       "StickyMind AI analyzes Post-it notes that remain in the same place for weeks. The system tracks adhesive decay and message relevance. Notes that are never relocated return ‘Symbolic intention.’ Q: What if the task is completed? Lin: “Then the note should be removed.” StickyMind positions itself as a productivity tool while quietly documenting unresolved commitments.",
   },
@@ -508,7 +490,6 @@ const cards = [
     supporters: "569",
     marketcap: "$940K",
     ipo: "D-36",
-    audio: "/audio/daylight.mp3",
     description:
       "DayGlow AI tracks instances of artificial lighting during daylight hours. Turning lights on at noon is categorized as ‘Atmospheric control.’ Q: Is it inefficient? Silva: “Efficiency is emotional.” The system excludes smart lighting for being overly intentional.",
   },
@@ -522,7 +503,6 @@ const cards = [
     supporters: "631",
     marketcap: "$1.1M",
     ipo: "D-28",
-    audio: "/audio/charger.mp3",
     description:
       "IdleCharge AI monitors charging cables plugged into outlets without devices attached. The behavior is classified as ‘Preparatory optimism.’ Cho insists unused power indicates belief in future need. Power strips invalidate readings due to collective intent.",
   },
@@ -551,7 +531,6 @@ const cards = [
     supporters: "1189",
     marketcap: "$2.6M",
     ipo: "D-7",
-    audio: "/audio/alarm.mp3",
     description:
       "WakeIntent AI analyzes how users dismiss alarms. Immediate dismissal without snoozing is labeled ‘Premature resolve.’ Repeated snoozing indicates ‘Negotiated awakening.’ Mercer claims alarms reveal more about intention than sleep quality.",
   },

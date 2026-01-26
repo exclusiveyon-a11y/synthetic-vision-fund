@@ -2094,3 +2094,19 @@ input[type="range"] {
   color: black;
   box-shadow: 0 0 0 2px #c9ff5c inset;
 }
+
+.svf-video-wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 2rem auto 3rem;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+}
+
+.svf-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.92;
+}
