@@ -334,7 +334,6 @@ html, body {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 24px;
-    opacity: 0.8;
   }
 
 /* Companies Page — 6 Small Cards per Row */
@@ -1885,15 +1884,6 @@ input[type="range"] {
   opacity: 1;
 }
 
-.svf-page-description {
-  font-size: 28px;
-  line-height: 1.3;
-  color: #bdbdbd;
-
-  max-width: 680px;
-  margin-bottom: 28px;
-}
-
 
 .svf-page-emphasis {
   margin-top: 64px;
@@ -2109,4 +2099,35 @@ input[type="range"] {
   height: auto;
   display: block;
   opacity: 0.92;
+}
+
+.svf-page-description q,
+.svf-page-description blockquote {
+  display: block;
+  margin: 24px 0;
+  padding-left: 16px;
+
+  border-left: 2px solid rgba(168,255,0,0.4);
+  color: #ffffff;
+}
+
+
+
+.svf-page-description:first-of-type {
+  font-size: 17px;
+  line-height: 1.3;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.svf-page-description:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.svf-page-description {
+  max-width: 800px; 
+  color: rgb(255, 255, 255);  /* 숫자 줄이면 우측 여백 커짐 */
+  font-size: 36px;
+  line-height: 1.4;
+  margin-bottom: 24px;
 }

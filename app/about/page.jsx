@@ -20,10 +20,17 @@ export default function AboutPage() {
           <video
             className="svf-video"
             src="/video/svf-promo.mp4"
-            autoPlay
-            muted
+            controls
             loop
             playsInline
+            style={{
+              width: "100%",
+              maxWidth: "720px",
+              borderRadius: "16px",
+              outline: "none",
+              border: "2px solid #c9ff5c", // 네온그린 테두리
+              backgroundColor: "#000",
+            }}
           />
         </div>
       )}

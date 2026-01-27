@@ -143,9 +143,10 @@ export default function DetailPage({ params }) {
             </div>
           )}
 
-          <article className="svf-detail-story">
-            <p>{item.description}</p>
-          </article>
+<article
+  className="svf-detail-story"
+  dangerouslySetInnerHTML={{ __html: item.description }}
+/>
         </div>
 
         <div className="svf-detail-right">
