@@ -42,7 +42,7 @@ export default function CheckoutForm({ amount = 1000, onSuccess = () => {} }) {
       {step === "checkout" && (
         <div className="checkout-amount-block">
         <p className="checkout-subtext">You're investing</p>
-        <h1 className="checkout-amount">${amount.toLocaleString()}</h1>
+        <h1 className="checkout-amount">${amount.toLocaleString("en-US")}</h1>
         <p className="checkout-belowtext">Choose your payment method</p>
       </div>
       )}

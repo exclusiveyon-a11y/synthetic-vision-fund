@@ -83,7 +83,7 @@ export default function InvestPanel({ invested, supporters, marketcap, ipo, onIn
         <div className="paypal-step">
           <div className="paypal-amount-display">
             <span className="paypal-amount-label">You're investing</span>
-            <span className="paypal-amount-value">${amount.toLocaleString()}</span>
+            <span className="paypal-amount-value">${amount.toLocaleString("en-US")}</span>
             <p className="checkout-belowtext">Choose your payment method</p>
 
           </div>
