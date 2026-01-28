@@ -25,7 +25,7 @@ export default function AboutPage() {
             playsInline
             style={{
               width: "100%",
-              maxWidth: "720px",
+              maxWidth: "800px",
               borderRadius: "16px",
               outline: "none",
               border: "2px solid #c9ff5c", // 네온그린 테두리
